@@ -2436,7 +2436,7 @@
             "text_style": {
               "label": "Tekststil",
               "options__1": {
-                "label": "Undertekst"
+                "label": "Subtitle"
               },
               "options__2": {
                 "label": "Store bokstaver"
@@ -2786,7 +2786,7 @@
                 "label": "Brødtekst"
               },
               "options__2": {
-                "label": "Undertekst"
+                "label": "Subtitle"
               },
               "label": "Tekststil"
             }
