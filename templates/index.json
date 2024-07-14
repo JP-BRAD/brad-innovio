@@ -114,6 +114,12 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/mens-desktop_94d42df7-c37b-4b87-bd0b-be0cddaa42ce.webp"
       }
+    },
+    "landing_hero_zMdm3G": {
+      "type": "landing-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kids-desktop_57a295f3-e697-4531-bccf-4200c80fcd31.webp"
+      }
     }
   },
   "order": [
@@ -122,6 +128,7 @@
     "custom_two_images_78aacK",
     "landing_hero_Y3zdEN",
     "landing_hero_dXtATC",
-    "landing_hero_qCWANe"
+    "landing_hero_qCWANe",
+    "landing_hero_zMdm3G"
   ]
 }
