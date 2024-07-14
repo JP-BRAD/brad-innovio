@@ -102,12 +102,26 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Homepage-Desktop_d62cc435-c2e8-4e7c-bbbc-8b0030f2747e.webp"
       }
+    },
+    "landing_hero_dXtATC": {
+      "type": "landing-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/carissas-desktop.webp"
+      }
+    },
+    "landing_hero_qCWANe": {
+      "type": "landing-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mens-desktop_94d42df7-c37b-4b87-bd0b-be0cddaa42ce.webp"
+      }
     }
   },
   "order": [
     "image_banner",
     "hero_video_banner_xYMzfF",
     "custom_two_images_78aacK",
-    "landing_hero_Y3zdEN"
+    "landing_hero_Y3zdEN",
+    "landing_hero_dXtATC",
+    "landing_hero_qCWANe"
   ]
 }
