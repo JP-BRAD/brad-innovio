@@ -96,11 +96,17 @@
         "para222": "shop now",
         "urrl22": ""
       }
+    },
+    "landing_hero_Y3zdEN": {
+      "type": "landing-hero",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "hero_video_banner_xYMzfF",
-    "custom_two_images_78aacK"
+    "custom_two_images_78aacK",
+    "landing_hero_Y3zdEN"
   ]
 }
