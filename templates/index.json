@@ -73,10 +73,34 @@
         "section_height": "650px",
         "mobile_height": "auto"
       }
+    },
+    "custom_two_images_78aacK": {
+      "type": "custom-two-images",
+      "settings": {
+        "img111": "shopify:\/\/shop_images\/kith-1.png",
+        "headh21": "",
+        "subhead1": "",
+        "para21": "shop now",
+        "urrll": "",
+        "img112": "shopify:\/\/shop_images\/kith-2.png",
+        "headh22": "",
+        "subhead2": "",
+        "para22": "shop now",
+        "urrl2": "",
+        "headh212": "",
+        "subhead3": "",
+        "para212": "shop now",
+        "urrll2": "",
+        "headh222": "",
+        "subhead4": "",
+        "para222": "shop now",
+        "urrl22": ""
+      }
     }
   },
   "order": [
     "image_banner",
-    "hero_video_banner_xYMzfF"
+    "hero_video_banner_xYMzfF",
+    "custom_two_images_78aacK"
   ]
 }
