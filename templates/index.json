@@ -77,6 +77,10 @@
     "landing_hero_video_hhpRir": {
       "type": "landing-hero-video",
       "settings": {
+        "vdo_url": "",
+        "heading": "Lorem Ipsum is simply dummy text.",
+        "sub-heading": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+        "content_position": "middle"
       }
     },
     "custom_two_images_78aacK": {
