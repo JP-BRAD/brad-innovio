@@ -314,6 +314,20 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       };
+
+
+    document.addEventListener('scroll', function() {
+        var scrollY = window.scrollY;
+        var stickyHeader = document.querySelector('sticky-header');
+
+        if (scrollY > 100) {
+            stickyHeader.style.opacity = "0";
+        } else {
+            stickyHeader.style.opacity = "1";
+        }
+    });
+
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
