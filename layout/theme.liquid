@@ -236,6 +236,11 @@
           font-size: 1.6rem;
         }
       }
+      sticky-header.header-wrapper {
+          position: fixed;
+          width: 100%;
+          background: transparent;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
