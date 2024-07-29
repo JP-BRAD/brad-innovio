@@ -236,11 +236,13 @@
           font-size: 1.6rem;
         }
       }
+      {% if template == "index" %}
       sticky-header.header-wrapper {
           position: fixed;
           width: 100%;
           background: transparent;
       }
+        {% endif %}
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
