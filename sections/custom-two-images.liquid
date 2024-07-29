@@ -1,249 +1,245 @@
-
-<div class="mainccbay">
-      	 <div class="innerbay">
-      	 	<div class="imag011">
-      	 		<a href="{{ section.settings.urrll }}">
-      	 			<img src="{{ section.settings.img111 | img_url: 'master' }}">
-                  <h2>{{ section.settings.headh21 }}</h2>
-                  <p>{{ section.settings.subhead1 }}</p>
-                  <span>{{ section.settings.para21 }}</span>
-      	 		</a>
-      	 	</div>
-      	 	<div class="imag011">
-      	 		<a href="{{ section.settings.urrl2 }}">
-      	 			<img src="{{ section.settings.img112 | img_url: 'master' }}">
-                  <h2>{{ section.settings.headh22 }}</h2>
-                  <p>{{ section.settings.subhead2 }}</p>
-                  <span>{{ section.settings.para22 }}</span>
-      	 		</a>
-
-      	 	</div>
-      	 </div>
-
-          <!-- Custom 2 more images -->
-{% if section.settings.img1112 %}
-        <div class="innerbay">
-      	 	<div class="imag011">
-      	 		<a href="{{ section.settings.urrll2 }}">
-      	 			<img src="{{ section.settings.img1112 | img_url: 'master' }}">
-                  <h2>{{ section.settings.headh212 }}</h2>
-                  <p>{{ section.settings.subhead3 }}</p>
-                  <span>{{ section.settings.para212 }}</span>
-      	 		</a>
-      	 	</div>
-      	 	<div class="imag011">
-      	 		<a href="{{ section.settings.urrl22 }}">
-      	 			<img src="{{ section.settings.img1122 | img_url: 'master' }}">
-                  <h2>{{ section.settings.headh222 }}</h2>
-                  <p>{{ section.settings.subhead4 }}</p>
-                  <span>{{ section.settings.para222 }}</span>
-      	 		</a>
-
-      	 	</div>
-      	 </div>
-  {% endif %}
-  
+<div class="color-{{ section.settings.color_scheme }} isolate gradient">
+  <div class="mainccbay">
+    <div class="innerbay">
+      <div class="imag011">
+        <a href="{{ section.settings.urrll }}">
+          <img src="{{ section.settings.img111 | img_url: 'master' }}">
+          <h2>{{ section.settings.headh21 }}</h2>
+          <p>{{ section.settings.subhead1 }}</p>
+          <span>{{ section.settings.para21 }}</span>
+        </a>
       </div>
+      <div class="imag011">
+        <a href="{{ section.settings.urrl2 }}">
+          <img src="{{ section.settings.img112 | img_url: 'master' }}">
+          <h2>{{ section.settings.headh22 }}</h2>
+          <p>{{ section.settings.subhead2 }}</p>
+          <span>{{ section.settings.para22 }}</span>
+        </a>
+      </div>
+    </div>
 
-	<style>
-		.mainccbay{
-          width:100%;
-          margin: 0px 5px;
-          display:flex;
-              flex-wrap: wrap;
-		}
-		.innerbay{
-          display: flex;
-          width:100%
-		}
-		.innerbay img{
-			width: 100%;
-		}
-      .mainccbay a{
-        color:inherit;
-        text-decoration:none;
-      }
-      .innerbay h2{
-        margin: 5px 0;
-        color: black;
-        font-size: 14px;
-      }
-      .innerbay span{
-        margin: 0;
-        border-bottom: 1px solid #cdcdcd;
-        font-size: 12px;
-        color: black;
-        padding-bottom: 3px;
-      }
-      .innerbay span:hover{
-        border-bottom:1px solid #000;
-      }
-		.imag011{
-			width: 50%;
-          padding: 15px 5px;
-		}
-.imag011 p {
-    font-size: 12px;
-    font-weight: 100;
-    color: black;
-    padding-top: 0;
-}
-      @media(max-width:767px){
-		.innerbay{
-          display: flex;
-          width: 100%;
-          gap: 0.5em;
-          padding: 30px 0;
-          flex-wrap: wrap;
-		}
-        .imag011{
-          padding:0px;
+    <!-- Custom 2 more images -->
+    {% if section.settings.img1112 %}
+      <div class="innerbay">
+        <div class="imag011">
+          <a href="{{ section.settings.urrll2 }}">
+            <img src="{{ section.settings.img1112 | img_url: 'master' }}">
+            <h2>{{ section.settings.headh212 }}</h2>
+            <p>{{ section.settings.subhead3 }}</p>
+            <span>{{ section.settings.para212 }}</span>
+          </a>
+        </div>
+        <div class="imag011">
+          <a href="{{ section.settings.urrl22 }}">
+            <img src="{{ section.settings.img1122 | img_url: 'master' }}">
+            <h2>{{ section.settings.headh222 }}</h2>
+            <p>{{ section.settings.subhead4 }}</p>
+            <span>{{ section.settings.para222 }}</span>
+          </a>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+<style>
+  		.mainccbay{
+            width:100%;
+            margin: 0px 5px;
+            display:flex;
+                flex-wrap: wrap;
+  		}
+  		.innerbay{
+            display: flex;
+            width:100%
+  		}
+  		.innerbay img{
+  			width: 100%;
+  		}
+        .mainccbay a{
+          color:inherit;
+          text-decoration:none;
         }
-		.mainccbay{
-          overflow: auto;
-          flex-direction:column;
-          margin:0;
-          
-		}        
-      }
+        .innerbay h2{
+          margin: 5px 0;
+          color: black;
+          font-size: 14px;
+        }
+        .innerbay span{
+          margin: 0;
+          border-bottom: 1px solid #cdcdcd;
+          font-size: 12px;
+          color: black;
+          padding-bottom: 3px;
+        }
+        .innerbay span:hover{
+          border-bottom:1px solid #000;
+        }
+  		.imag011{
+  			width: 50%;
+            padding: 15px 5px;
+  		}
+  .imag011 p {
+      font-size: 12px;
+      font-weight: 100;
+      color: black;
+      padding-top: 0;
+  }
+        @media(max-width:767px){
+  		.innerbay{
+            display: flex;
+            width: 100%;
+            gap: 0.5em;
+            padding: 30px 0;
+            flex-wrap: wrap;
+  		}
+          .imag011{
+            padding:0px;
+          }
+  		.mainccbay{
+            overflow: auto;
+            flex-direction:column;
+            margin:0;
 
-      @media (max-width:600px){
-        .innerbay{
-          width:100%;
-          padding:0 5px;
+  		}
         }
-        .imag011{
-          width:100%;
+
+        @media (max-width:600px){
+          .innerbay{
+            width:100%;
+            padding:0 5px;
+          }
+          .imag011{
+            width:100%;
+          }
+          .mainccbay{
+            margin:0;
+          }
         }
-        .mainccbay{
-          margin:0;
-        }
-      }
-      
-	</style>
+</style>
 
 {% schema %}
-  {
-    "name": "Custom 2 images",
-    "settings": [
-      {
-        "type": "color_scheme",
-        "id": "color_scheme",
-        "label": "t:sections.all.colors.label",
-        "info": "t:sections.all.colors.has_cards_info",
-        "default": "background-1"
-      },
-      {
-        "type":"image_picker",
-        "id":"img111",
-        "label":"Image"
-      },
-      {
-        "type":"text",
-        "id":"headh21",
-        "label":"Heading"
-      },
-      {
-        "type":"text",
-        "id":"subhead1",
-        "label":"Sub Heading"
-      },
-      {
-        "type":"text",
-        "id":"para21",
-        "label":"Para",
-        "default":"shop now"
-      },
-      {
-        "type":"url",
-        "id":"urrll",
-        "label":"url"
-      },
-      {
-        "type":"image_picker",
-        "id":"img112",
-        "label":"Image"
-      },
-      {
-        "type":"text",
-        "id":"headh22",
-        "label":"Heading"
-      },
-      {
-        "type":"text",
-        "id":"subhead2",
-        "label":"Sub Heading"
-      },
-      {
-        "type":"text",
-        "id":"para22",
-        "label":"Para",
-        "default":"shop now"
-      },
-      
-      {
-        "type":"url",
-        "id":"urrl2",
-        "label":"url"
-      },
-      {
-        "type":"image_picker",
-        "id":"img1112",
-        "label":"Image"
-      },
-      {
-        "type":"text",
-        "id":"headh212",
-        "label":"Heading"
-      },
-      {
-        "type":"text",
-        "id":"subhead3",
-        "label":"Sub Heading"
-      },
-      {
-        "type":"text",
-        "id":"para212",
-        "label":"Para",
-        "default":"shop now"
-      },
-      {
-        "type":"url",
-        "id":"urrll2",
-        "label":"url"
-      },
-      {
-        "type":"image_picker",
-        "id":"img1122",
-        "label":"Image"
-      },
-      {
-        "type":"text",
-        "id":"headh222",
-        "label":"Heading"
-      },
-      {
-        "type":"text",
-        "id":"subhead4",
-        "label":"Sub Heading"
-      },
-      {
-        "type":"text",
-        "id":"para222",
-        "label":"Para",
-        "default":"shop now"
-      },
-      
-      {
-        "type":"url",
-        "id":"urrl22",
-        "label":"url"
-      }
-    ],
-    "presets":[{
-      "name":"Custom 2 images"
-    }]
-  }
+{
+  "name": "Custom 2 images",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.all.colors.has_cards_info",
+      "default": "background-1"
+    },
+    {
+      "type":"image_picker",
+      "id":"img111",
+      "label":"Image"
+    },
+    {
+      "type":"text",
+      "id":"headh21",
+      "label":"Heading"
+    },
+    {
+      "type":"text",
+      "id":"subhead1",
+      "label":"Sub Heading"
+    },
+    {
+      "type":"text",
+      "id":"para21",
+      "label":"Para",
+      "default":"shop now"
+    },
+    {
+      "type":"url",
+      "id":"urrll",
+      "label":"url"
+    },
+    {
+      "type":"image_picker",
+      "id":"img112",
+      "label":"Image"
+    },
+    {
+      "type":"text",
+      "id":"headh22",
+      "label":"Heading"
+    },
+    {
+      "type":"text",
+      "id":"subhead2",
+      "label":"Sub Heading"
+    },
+    {
+      "type":"text",
+      "id":"para22",
+      "label":"Para",
+      "default":"shop now"
+    },
+
+    {
+      "type":"url",
+      "id":"urrl2",
+      "label":"url"
+    },
+    {
+      "type":"image_picker",
+      "id":"img1112",
+      "label":"Image"
+    },
+    {
+      "type":"text",
+      "id":"headh212",
+      "label":"Heading"
+    },
+    {
+      "type":"text",
+      "id":"subhead3",
+      "label":"Sub Heading"
+    },
+    {
+      "type":"text",
+      "id":"para212",
+      "label":"Para",
+      "default":"shop now"
+    },
+    {
+      "type":"url",
+      "id":"urrll2",
+      "label":"url"
+    },
+    {
+      "type":"image_picker",
+      "id":"img1122",
+      "label":"Image"
+    },
+    {
+      "type":"text",
+      "id":"headh222",
+      "label":"Heading"
+    },
+    {
+      "type":"text",
+      "id":"subhead4",
+      "label":"Sub Heading"
+    },
+    {
+      "type":"text",
+      "id":"para222",
+      "label":"Para",
+      "default":"shop now"
+    },
+
+    {
+      "type":"url",
+      "id":"urrl22",
+      "label":"url"
+    }
+  ],
+  "presets":[{
+    "name":"Custom 2 images"
+  }]
+}
 {% endschema %}
 
 {% stylesheet %}
