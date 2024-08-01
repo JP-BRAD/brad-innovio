@@ -156,6 +156,11 @@
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
       {
+        "type": "checkbox",
+        "id": "full_page_width",
+        "label": "Use Full Page Widht"
+      },
+      {
         "type": "range",
         "id": "spacing_sections",
         "min": 0,
