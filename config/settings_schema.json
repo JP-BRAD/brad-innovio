@@ -158,7 +158,7 @@
       {
         "type": "checkbox",
         "id": "full_page_width",
-        "label": "Use Full Page Widht"
+        "label": "Use full page widht"
       },
       {
         "type": "range",
