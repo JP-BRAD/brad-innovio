@@ -1409,6 +1409,17 @@
     ]
   },
   {
+    "name": "Icons",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "icon",
+        "label": "icon",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.cart.name",
     "settings": [
       {
