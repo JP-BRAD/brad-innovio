@@ -9,35 +9,6 @@
 */
 {
   "sections": {
-    "featured_collection_LrtNnJ": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-667d967e-d312-420e-8afc-42386e96daf4",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "landing_hero_video_hhpRir": {
       "type": "landing-hero-video",
       "settings": {
@@ -184,7 +155,6 @@
     }
   },
   "order": [
-    "featured_collection_LrtNnJ",
     "landing_hero_video_hhpRir",
     "custom_two_images_78aacK",
     "landing_hero_Y3zdEN",
