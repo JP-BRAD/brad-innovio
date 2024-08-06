@@ -45,18 +45,9 @@
         "vdo_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0848f104e0a146efbf70e5d987a0bf0c.mp4",
         "heading": "Lorem Ipsum is simply dummy text.",
         "sub-heading": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-        "content_position": "bottom",
-        "title": "Bring your\nbrand to life.",
-        "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
+        "btn_name": "SHOP",
+        "btn_url": "",
+        "content_position": "bottom"
       }
     },
     "custom_two_images_78aacK": {
