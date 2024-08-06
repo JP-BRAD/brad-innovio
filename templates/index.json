@@ -42,15 +42,27 @@
       "type": "landing-hero-video",
       "settings": {
         "color_scheme": "",
-        "vdo_url": "",
+        "vdo_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0848f104e0a146efbf70e5d987a0bf0c.mp4",
         "heading": "Lorem Ipsum is simply dummy text.",
         "sub-heading": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-        "content_position": "bottom"
+        "content_position": "bottom",
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
       }
     },
     "custom_two_images_78aacK": {
       "type": "custom-two-images",
       "settings": {
+        "color_scheme": "",
         "img111": "shopify:\/\/shop_images\/kith-1.png",
         "headh21": "",
         "subhead1": "",
