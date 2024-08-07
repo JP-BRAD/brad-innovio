@@ -38,3 +38,48 @@
   </main>
 </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var drawer = document.querySelector('.drawer');
+    var drawerApiToggle = document.querySelector('.drawer-api-toggle');
+    var drawerDropdownHover = document.querySelectorAll('.drawer-dropdown-hover');
+
+    // Initialize drawer (assuming a custom method to initialize the drawer)
+    if (drawer && typeof drawer.drawer === 'function') {
+        drawer.drawer();
+    }
+
+    // Toggle drawer on button click
+    if (drawerApiToggle) {
+        drawerApiToggle.addEventListener('click', function() {
+            if (drawer && typeof drawer.drawer === 'function') {
+                drawer.drawer("open");
+            }
+        });
+    }
+
+    // Log 'opened' event
+    if (drawer) {
+        drawer.addEventListener('drawer.opened', function() {
+            console.log('opened');
+        });
+
+        // Log 'closed' event
+        drawer.addEventListener('drawer.closed', function() {
+            console.log('closed');
+        });
+    }
+
+    // Dropdown hover functionality
+    drawerDropdownHover.forEach(function(element) {
+        element.addEventListener('mouseover', function() {
+            var dropdownToggle = element.querySelector('[data-toggle="dropdown"]');
+            if (dropdownToggle) {
+                dropdownToggle.click();
+            }
+        });
+    });
+});
+
+</script>
