@@ -7,19 +7,21 @@
       </div>
       <div class="">
         <div class="">
-          <div class="">
-            <a href="">
-              <div class="" style="">
+          {% for block in section.blocks %}
+            <div class="">
+              <a href="">
                 <div class="" style="">
-                  <img src="" class="" alt="" />
+                  <div class="" style="">
+                    <img src="" class="" alt="" />
+                  </div>
                 </div>
-              </div>
-              <div class="">
-                <label class="">ENGAGEMENT</label>
-                <label class="">SHOP NOW</label>
-              </div>
-            </a>
-          </div>
+                <div class="">
+                  <label class="">ENGAGEMENT</label>
+                  <label class="">SHOP NOW</label>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -29,6 +31,19 @@
 {
   "name": "Custom Colleage Section",
   "settings": [],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name":"Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "img"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Custom Colleage Section"
