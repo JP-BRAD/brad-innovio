@@ -152,6 +152,61 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/kids-desktop_57a295f3-e697-4531-bccf-4200c80fcd31.webp"
       }
+    },
+    "section_shop_the_look_HCaRQN": {
+      "type": "section-shop-the-look",
+      "blocks": {
+        "product_gQCQ4F": {
+          "type": "product",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/7_5ac1533b-900d-48bd-9a61-32d4efc289d9.png",
+            "product_1": "arbor-maxi-dress",
+            "product_2": "",
+            "product_3": "",
+            "product_4": ""
+          }
+        },
+        "product_4Uy8AJ": {
+          "type": "product",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/5_91ed903f-1934-4242-a614-37ee2c749fe0.png",
+            "product_1": "bella-rose-midi-dress",
+            "product_2": "",
+            "product_3": "",
+            "product_4": ""
+          }
+        },
+        "product_YYTytb": {
+          "type": "product",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/TS102093.jpg",
+            "product_1": "bloom-top",
+            "product_2": "cinnamon-mini-skirt",
+            "product_3": "",
+            "product_4": ""
+          }
+        },
+        "product_dp4DDq": {
+          "type": "product",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/E-com-60_ca059656-df5a-4b50-a179-2bc453410ee3.jpg",
+            "product_1": "contemporary-style-diamond-pendant-necklace-mnt0231",
+            "product_2": "grey-check-single-brested-blazer",
+            "product_3": "grand-kundan-chandelier-mnt0234rd",
+            "product_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_gQCQ4F",
+        "product_4Uy8AJ",
+        "product_YYTytb",
+        "product_dp4DDq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "collection": ""
+      }
     }
   },
   "order": [
@@ -163,6 +218,7 @@
     "featured_collection_YKeNXr",
     "landing_hero_qCWANe",
     "featured_collection_GYpgK3",
-    "landing_hero_zMdm3G"
+    "landing_hero_zMdm3G",
+    "section_shop_the_look_HCaRQN"
   ]
 }
