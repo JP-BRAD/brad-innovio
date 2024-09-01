@@ -1,6 +1,386 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="section-shop-the-look-main">
+  <div class="section-shop-the-look-wrap page-width">
+    {% for block in section.blocks %}
+      <div class="section-shop-the-look-item">
+        <div id="openDrawerButton" class="openDrawerButton" style="cursor:pointer;">
+          <div>
+            <img src="{{ block.settings.first_image | img_url:'' }}" alt="">
+          </div>
+          <div class="stl-btn">
+                    <span>shop the Look</span>
+                </div>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <div class="closebtn-div">
+            <h2>Shop The Look</h2>
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+          </div>
+          <div class="shop-the-look-products-div">
+            <div class="shop-the-look-thumb-img">
+              <img
+                src="{{ block.settings.first_image | img_url:'' }}"
+                alt=""
+              >
+            </div>
+            
+            <div class="shop-the-look-products-wrap">
+              {% if block.settings.product_1 != blank %}
+              <div class="product-item">
+                <div class="product-item-image">
+                  <img src="{{ block.settings.product_1.featured_media | img_url:'' }}"/>
+                </div>
+                <div class="product-item-info">
+                  <h2>{{ block.settings.product_1.title }}</h2>
+                  <p>{{ block.settings.product_1.price | money_with_currency }}</p>
+                  <div class="product-item-btn" variant-id="{{ block.settings.product_1.first_available_variant.id }}">
+                      <span>Add To Bag</span>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+              
+              {% if block.settings.product_2 != blank %}
+              <div class="product-item">
+                <div class="product-item-image">
+                  <img src="{{ block.settings.product_2.featured_media | img_url:'' }}"/>
+                </div>
+                <div class="product-item-info">
+                  <h2>{{ block.settings.product_2.title }}</h2>
+                  <p>{{ block.settings.product_2.price | money_with_currency }}</p>
+                  <div class="product-item-btn" variant-id="{{ block.settings.product_2.first_available_variant.id }}">
+                      <span>Add To Bag</span>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+
+              {% if block.settings.product_3 != blank %}
+              <div class="product-item">
+                <div class="product-item-image">
+                  <img src="{{ block.settings.product_3.featured_media | img_url:'' }}"/>
+                </div>
+                <div class="product-item-info">
+                  <h2>{{ block.settings.product_3.title }}</h2>
+                  <p>{{ block.settings.product_3.price | money_with_currency }}</p>
+                  <div class="product-item-btn" variant-id="{{ block.settings.product_3.first_available_variant.id }}">
+                      <span>Add To Bag</span>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+
+              {% if block.settings.product_4 != blank %}
+              <div class="product-item">
+                <div class="product-item-image">
+                  <img src="{{ block.settings.product_4.featured_media | img_url:'' }}"/>
+                </div>
+                <div class="product-item-info">
+                  <h2>{{ block.settings.product_4.title }}</h2>
+                  <p>{{ block.settings.product_4.price | money_with_currency }}</p>
+                  <div class="product-item-btn" variant-id="{{ block.settings.product_4.first_available_variant.id }}">
+                      <span>Add To Bag</span>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<style>
+    .sidenav:hover::before {
+      opacity:0.2;
+
+    }
+
+    .sidenav::before {
+      height: 100vh;
+      width: 100vw;
+      /* margin-left: 250px; */
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      top:0;
+      content: "";
+      opacity:0;
+      /* background-color: blue; */
+
+
+      -webkit-transition: opacity 0.2s linear;
+           -moz-transition: opacity 0.2s linear;
+            -ms-transition: opacity 0.2s linear;
+             -o-transition: opacity 0.2s linear;
+                transition: opacity 0.2s linear;
+      pointer-events: none;
+
+    }
+
+
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      transition: 0.5s;
+      z-index: 999;
+    }
+
+    .sidenav a {
+      text-align: center;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+    
+      font-size: 36px;
+    
+    }
+
+    h2{
+      padding:0;
+      margin:0;
+
+     }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .section-shop-the-look-wrap img {
+      width: 100%;
   }
+
+    .section-shop-the-look-wrap {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+  }
+  .shop-the-look-products-div {
+    display: flex;
+}
+  .shop-the-look-products-wrap {
+    width: 60%;
+    padding: 0px 10px;
+}
+  .shop-the-look-thumb-img {
+    width: 40%;
+    padding-top: 12px;
+}
+  .product-item {
+    display: flex;
+        padding-top: 12px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 6px;
+}
+  .product-item-image {
+    width: 35%;
+}
+  .product-item-info {
+    width: 65%;
+    padding: 10px;
+}
+  .product-item-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 18px;
+    background: #000000;
+    border-radius: 50px;
+    text-align: center;
+        cursor: pointer;
+}
+  .closebtn-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+  div#openDrawerButton {
+    position: relative;
+}
+  .stl-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+  .stl-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 14px;
+    padding: 10px 18px;
+    background: #ffffff;
+    text-align: center;
+        cursor: pointer;
+}
+  @media(max-width:768px){
+        .section-shop-the-look-item {
+              width: calc(50% - 4px) !important;
+          }
+        .section-shop-the-look-wrap {
+            flex-wrap: wrap!important;
+        }
+    .stl-btn {
+        padding: 4px 10px;
+        font-size: 12px;
+        bottom: 7%;
+    }
+    .shop-the-look-products-div {
+          flex-wrap: wrap;
+      }
+    .shop-the-look-thumb-img {
+          width: 100%;
+      }
+    .shop-the-look-products-wrap {
+    width: 100%;}
+      }
+</style>
+
+<script>
+    function openNav() {
+    // document.getElementById("mySidenav").style.width = "400px";
+    // document.getElementById("mySidenav").style.overflowX = "visible";
+
+  }
+
+  function closeNav() {
+    // document.getElementById("mySidenav").style.width = "0";
+    // document.getElementById("mySidenav").style.overflowX = "hidden";
+
+  }
+</script>
+
+<script>
+  $(document).ready(function(){
+
+  $('.openDrawerButton').click(function(e){
+
+
+
+     if($(window).innerWidth() <= 751) {
+         $(this).next().css({"width":"95%","overflow-y":"scroll"});
+      } else {
+         $(this).next().css({"width":"65%","overflow-y":"scroll"});
+      }
+    
+
+    
+
+
+     });
+
+     $('.closebtn').click(function(e){
+        // console.log($(this).parent());
+        $(this).parent().parent().css({"width":"0","overflow-y":"hidden"});
+     });
+
+
+   
+
+    });
+
+
+    $(document).ready(function () {
+
+ 
+
+$(".product-item-btn").click(function () {
+  var var_id = $(this).attr("variant-id");
+  console.log("-", var_id);
+
+  $.ajax({
+    type: "POST",
+    url: "/cart/add.js",
+    data: {
+      quantity: 1,
+      id: var_id,
+    },
+    dataType: "json",
+    success: function (data) {
+      $('#CartDrawer').css('height','100%');
+      $('cart-drawer').removeClass('is-empty');
+      $('.drawer__inner-empty').hide();
+      $('#CartDrawer').load(location.href + ' #CartDrawer');
+      // $('.cart-count-bubble').load(location.href + ' .cart-count-bubble');
+      $('cart-drawer').addClass('active');
+      
+    },
+  });
+});
+
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Shop The Look",
+  "settings": [
+    {
+    "type": "color_scheme",
+    "id": "color_scheme",
+    "label": "t:sections.all.colors.label",
+    "info": "t:sections.all.colors.has_cards_info",
+    "default": "scheme-1"
+  },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name":"product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "first_image",
+          "label": "Thumb Image"
+        },
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "Product 1"
+        },
+        {
+          "type": "product",
+          "id": "product_2",
+          "label": "Product 2"
+        },
+        {
+          "type": "product",
+          "id": "product_3",
+          "label": "Product 3"
+        },
+        {
+          "type": "product",
+          "id": "product_4",
+          "label": "Product 4"
+        }
+      ]
+    }
+  ],
+  "presets": [{
+     "name": "Shop The Look"
+  }]
+}
 {% endschema %}
