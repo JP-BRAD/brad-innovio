@@ -94,7 +94,7 @@
             
             </a>
           </h3>
-          <p>{{ link_text }}</p>
+          <p class="card__link_text_btn">{{ link_text }}</p>
           {%- if card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
