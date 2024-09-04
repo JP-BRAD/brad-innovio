@@ -207,6 +207,46 @@
         "color_scheme": "",
         "collection": ""
       }
+    },
+    "collection_list_aNYYnj": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_mJkHmP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "featured_collection_Htf3Ud": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "footwear"
+          }
+        },
+        "featured_collection_Wcf3tf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_mJkHmP",
+        "featured_collection_Htf3Ud",
+        "featured_collection_Wcf3tf"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -219,6 +259,7 @@
     "landing_hero_qCWANe",
     "featured_collection_GYpgK3",
     "landing_hero_zMdm3G",
-    "section_shop_the_look_HCaRQN"
+    "section_shop_the_look_HCaRQN",
+    "collection_list_aNYYnj"
   ]
 }
