@@ -5,6 +5,11 @@
     position: absolute;
     bottom: 0;
 }
+.card__link_text_btn{
+      margin: 0;
+    font-weight: 700;
+    text-decoration: underline;
+}
 .collection-list {
   margin-top: 0;
   margin-bottom: 0;
