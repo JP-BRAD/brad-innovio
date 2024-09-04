@@ -94,7 +94,9 @@
             
             </a>
           </h3>
+          {% if link_text != blank %}
           <p class="card__link_text_btn">{{ link_text }}</p>
+            {% endif %}
           {%- if card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
@@ -124,7 +126,9 @@
              
             </a>
           </h3>
-          <p>{{ link_text }}</p>
+          {% if link_text != blank %}
+          <p class="card__link_text_btn">{{ link_text }}</p>
+            {% endif %}
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
