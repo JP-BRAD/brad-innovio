@@ -208,49 +208,57 @@
         "collection": ""
       }
     },
-    "collection_list_aNYYnj": {
-      "type": "collection-list",
+    "section_collection_list_3KUKLy": {
+      "type": "section-collection-list",
       "blocks": {
-        "featured_collection_mJkHmP": {
+        "featured_collection_xnJnpe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "apparel"
+            "collection": "apparel",
+            "collection_heading": "",
+            "link_text": ""
           }
         },
-        "featured_collection_fUzGJf": {
+        "featured_collection_UaBa6d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "apparel"
+            "collection": "accessories",
+            "collection_heading": "Jwellery",
+            "link_text": "Shop"
           }
         },
-        "featured_collection_Wcf3tf": {
+        "featured_collection_tzyEyr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "apparel",
+            "collection_heading": "Apparel",
+            "link_text": "Shop Now"
           }
         },
-        "featured_collection_wdMVxp": {
+        "featured_collection_RUwctA": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "new-arrivals",
+            "collection_heading": "New",
+            "link_text": "Shop Now"
           }
         }
       },
       "block_order": [
-        "featured_collection_mJkHmP",
-        "featured_collection_fUzGJf",
-        "featured_collection_Wcf3tf",
-        "featured_collection_wdMVxp"
+        "featured_collection_xnJnpe",
+        "featured_collection_UaBa6d",
+        "featured_collection_tzyEyr",
+        "featured_collection_RUwctA"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -267,6 +275,6 @@
     "featured_collection_GYpgK3",
     "landing_hero_zMdm3G",
     "section_shop_the_look_HCaRQN",
-    "collection_list_aNYYnj"
+    "section_collection_list_3KUKLy"
   ]
 }
