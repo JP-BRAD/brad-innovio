@@ -216,7 +216,7 @@
           "settings": {
             "collection": "apparel",
             "collection_heading": "",
-            "link_text": ""
+            "link_text": "Shop Now"
           }
         },
         "featured_collection_UaBa6d": {
@@ -224,7 +224,7 @@
           "settings": {
             "collection": "accessories",
             "collection_heading": "Jwellery",
-            "link_text": "Shop"
+            "link_text": "Shop Now"
           }
         },
         "featured_collection_tzyEyr": {
@@ -255,7 +255,7 @@
         "heading_size": "h1",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
