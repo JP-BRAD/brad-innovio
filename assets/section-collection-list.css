@@ -3,6 +3,7 @@
 }
 .collection-list__item .card__content {
     position: absolute;
+    bottom: 0;
 }
 .collection-list {
   margin-top: 0;
