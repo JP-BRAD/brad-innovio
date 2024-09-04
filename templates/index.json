@@ -217,13 +217,19 @@
             "collection": "apparel"
           }
         },
-        "featured_collection_Htf3Ud": {
+        "featured_collection_fUzGJf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "footwear"
+            "collection": "apparel"
           }
         },
         "featured_collection_Wcf3tf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "featured_collection_wdMVxp": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessories"
@@ -232,18 +238,19 @@
       },
       "block_order": [
         "featured_collection_mJkHmP",
-        "featured_collection_Htf3Ud",
-        "featured_collection_Wcf3tf"
+        "featured_collection_fUzGJf",
+        "featured_collection_Wcf3tf",
+        "featured_collection_wdMVxp"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
