@@ -128,7 +128,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "cover",
         "gallery_layout": "columns",
