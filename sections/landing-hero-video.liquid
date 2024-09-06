@@ -42,7 +42,7 @@
 
   
 {%- if section.settings.video_url -%}
-
+{%- liquid assign video_id = section.settings.video_url.id -%}
     {%- if section.settings.video_url.type == 'youtube' -%}
             <iframe
               src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
