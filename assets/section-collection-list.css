@@ -10,6 +10,9 @@
     font-weight: 700;
     text-decoration: underline;
 }
+.collection-list__item .card__information h3 {
+    color: #ffffff;
+}
 .collection-list {
   margin-top: 0;
   margin-bottom: 0;
