@@ -217,7 +217,7 @@
           "settings": {
             "collection": "apparel",
             "collection_heading": "",
-            "link_text": "Shop Now"
+            "link_text": ""
           }
         },
         "featured_collection_UaBa6d": {
@@ -225,7 +225,7 @@
           "settings": {
             "collection": "accessories",
             "collection_heading": "Jwellery",
-            "link_text": "Shop Now"
+            "link_text": ""
           }
         },
         "featured_collection_tzyEyr": {
@@ -233,7 +233,7 @@
           "settings": {
             "collection": "apparel",
             "collection_heading": "Apparel",
-            "link_text": "Shop Now"
+            "link_text": ""
           }
         },
         "featured_collection_RUwctA": {
@@ -241,7 +241,7 @@
           "settings": {
             "collection": "new-arrivals",
             "collection_heading": "New",
-            "link_text": "Shop Now"
+            "link_text": ""
           }
         }
       },
