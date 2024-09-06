@@ -268,7 +268,8 @@
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/0848f104e0a146efbf70e5d987a0bf0c.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
