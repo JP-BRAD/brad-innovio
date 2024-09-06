@@ -44,10 +44,11 @@
             | video_tag:
               image_size: '1100x',
               autoplay: true,
-              loop: section.settings.enable_video_looping,
+              loop: true,
               controls: true,
               muted: false
           }}
+    
     <video
       src="{{ section.settings.vdo_url }}"
       class="landing-hero-video__video"
