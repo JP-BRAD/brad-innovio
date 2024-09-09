@@ -105,30 +105,30 @@
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
-                      {%- if settings.brand_image != blank -%}
-                        {%- assign brand_image_height = settings.brand_image_width
-                          | divided_by: settings.brand_image.aspect_ratio
+                      {%- if block.settings.brand_image != blank -%}
+                        {%- assign brand_image_height = block.settings.brand_image_width
+                          | divided_by: block.settings.brand_image.aspect_ratio
                         -%}
                         <div
                           class="footer-block__image-wrapper global-media-settings"
-                          style="max-width: min(100%, {{ settings.brand_image_width }}px);"
+                          style="max-width: min(100%, {{ block.settings.brand_image_width }}px);"
                         >
                           {{
-                            settings.brand_image
+                            block.settings.brand_image
                             | image_url: width: 1100
                             | image_tag:
                               loading: 'lazy',
                               widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
                               height: brand_image_height,
-                              width: settings.brand_image_width
+                              width: block.settings.brand_image_width
                           }}
                         </div>
                       {%- endif -%}
-                      {%- if settings.brand_headline != blank -%}
-                        <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
+                      {%- if block.settings.brand_headline != blank -%}
+                        <h2 class="footer-block__heading rte">{{ block.settings.brand_headline }}</h2>
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
-                        <div class="rte">{{ settings.brand_description }}</div>
+                        <div class="rte">{{ block.settings.brand_description }}</div>
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
                         {%- render 'social-icons' -%}
