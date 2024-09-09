@@ -1,19 +1,19 @@
 <style>
-  .landing__hero-wrap {
-    position: relative;
-}
-  .landing-hero__content {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 15px;
-}
-  a.landing-hero__cta {
-    background: transparent;
-}
+    .landing__hero-wrap {
+      position: relative;
+  }
+    .landing-hero__content {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 15px;
+  }
+    a.landing-hero__cta {
+      background: transparent;
+  }
 </style>
 <div class="landing__hero-main">
   <div class="landing__hero-wrap" style="">
@@ -85,7 +85,30 @@
       "type": "image_picker",
       "id": "image_for_mobile",
       "label": "Image for Mobile"
-    }
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Lorem Ipsum is simply dummy text.",
+      "label": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+      "label": "Sub-Heading"
+    },
+    {
+     "type": "text",
+     "id": "button_label",
+     "default": "Button label",
+     "label": "Button Label"
+     },
+     {
+     "type": "url",
+     "id": "link",
+     "label": "Link"
+     }
   ],
   "presets": [
     {
