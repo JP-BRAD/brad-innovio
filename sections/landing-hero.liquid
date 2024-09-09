@@ -48,24 +48,24 @@
           class="landing-hero__title"
           id=""
         >
-          Lorem Ipsum is simply dummy text.
+         {{ section.settings.heading }}
         </h2>
 
         <h3 class="landing-hero__subtitle">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+          {{ section.settings.subheading }}
         </h3>
       </div>
       <div class="landing-hero__buttons">
         <a
-          href=""
+          href="{{ section.settings.link }}"
           class="landing-hero__cta button button--secondary"
-          >SHOP NOW</a
+          >{{ section.settings.button_label }}</a
         >
 
         <a
-          href=""
+          href="{{ section.settings.link }}"
           class="landing-hero__cta button button--secondary"
-          >EXPLORE NOW</a
+          >{{ section.settings.button_label }}</a
         >
       </div>
     </div>
