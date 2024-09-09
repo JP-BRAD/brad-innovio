@@ -127,7 +127,7 @@
                       {%- if block.settings.brand_headline != blank -%}
                         <h2 class="footer-block__heading rte">{{ block.settings.brand_headline }}</h2>
                       {%- endif -%}
-                      {%- if settings.brand_description != blank -%}
+                      {%- if block.settings.brand_description != blank -%}
                         <div class="rte">{{ block.settings.brand_description }}</div>
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
