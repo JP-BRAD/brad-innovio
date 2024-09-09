@@ -28,6 +28,13 @@
             "menu": "footer"
           }
         },
+        "newsletter_BbMDFG": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -43,21 +50,14 @@
             "brand_image_width": 240,
             "show_social": true
           }
-        },
-        "newsletter_BbMDFG": {
-          "type": "newsletter",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
+        "newsletter_BbMDFG",
         "footer-2",
-        "brand_information_iWKtCw",
-        "newsletter_BbMDFG"
+        "brand_information_iWKtCw"
       ],
       "settings": {
         "color_scheme": "background-1",
