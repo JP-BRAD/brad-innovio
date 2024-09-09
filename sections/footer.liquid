@@ -444,6 +444,71 @@
   <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+<style>
+.footer_accordion {
+    pointer-events: none;
+}
+@media(max-width:749px){
+  .footer_accordion {
+        cursor: pointer;
+        pointer-events: all;
+      
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+/* Add a background color to the button if it is clicked on (add the .activate class with JS), and when you move the mouse over it (hover) */
+.activate, .footer_accordion:hover {
+ 
+}
+
+/* Style the accordion-cf panel12. Note: hidden by default */
+.footer_panel {
+  
+   
+    display: none;
+    overflow: hidden;
+}
+
+
+.footer_accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: #dca727;
+  float: right;
+  margin-left: 5px;
+}
+
+.activate:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+} 
+
+}  
+
+</style>
+<script>
+  var acc = document.getElementsByClassName("footer_accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "activate" class,
+    to highlight the button that controls the panel12 */
+    this.classList.toggle("activate");
+
+    /* Toggle between hiding and showing the activate panel12 */
+    var panel12 = this.nextElementSibling;
+    if (panel12.style.display === "block") {
+      panel12.style.display = "none";
+    } else {
+      panel12.style.display = "block";
+    }
+  });
+}
+</script>
 {% schema %}
 {
   "name": "t:sections.footer.name",
