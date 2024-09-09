@@ -17,8 +17,8 @@
         "brand_information_iWKtCw": {
           "type": "brand_information",
           "settings": {
-            "brand_headline": "Headline",
-            "brand_description": "<p>Headline<\/p>",
+            "brand_headline": "<strong>ABOUT US<\/strong>",
+            "brand_description": "<p>We offer quick and expert support—from setting up your shop to ensuring it runs smoothly. <\/p>",
             "brand_image_width": 240,
             "show_social": true
           }
@@ -26,21 +26,21 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "QUICK LINKS",
+            "heading": "<strong>QUICK LINKS<\/strong>",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "SUPPORT",
+            "heading": "<strong>SUPPORT<\/strong>",
             "menu": "policy"
           }
         },
         "newsletter_BbMDFG": {
           "type": "newsletter",
           "settings": {
-            "heading": "Heading",
+            "heading": "<strong>JOIN OUR LIST<\/strong>",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
