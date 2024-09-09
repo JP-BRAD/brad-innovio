@@ -24,17 +24,17 @@
     >
       <img
         alt=""
-        srcset="{{ section.settings.image | img_url:'' }}"
+        srcset="{{ section.settings.image_for_desktop | img_url:'' }}"
         loading="lazy"
-        class="w-full"
+        class="small-hide"
         style="width: 100%;"
       >
 
       <img
         alt=""
-        srcset="{{ section.settings.image | img_url:'' }}"
+        srcset="{{ section.settings.image_for_mobile | img_url:'' }}"
         loading="lazy"
-        class="w-full"
+        class="medium-hide large-up-hide"
         style="width: 100%;"
       >
     </a>
