@@ -105,6 +105,10 @@
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
+                       {%- if block.settings.brand_headline != blank -%}
+                        <h2 class="footer-block__heading rte">{{ block.settings.brand_headline }}</h2>
+                      {%- endif -%}
+                      
                       {%- if block.settings.brand_image != blank -%}
                         {%- assign brand_image_height = block.settings.brand_image_width
                           | divided_by: block.settings.brand_image.aspect_ratio
@@ -124,9 +128,7 @@
                           }}
                         </div>
                       {%- endif -%}
-                      {%- if block.settings.brand_headline != blank -%}
-                        <h2 class="footer-block__heading rte">{{ block.settings.brand_headline }}</h2>
-                      {%- endif -%}
+                     
                       {%- if block.settings.brand_description != blank -%}
                         <div class="rte">{{ block.settings.brand_description }}</div>
                       {%- endif -%}
