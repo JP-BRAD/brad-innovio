@@ -78,19 +78,19 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                  <h2 class="footer-block__heading inline-richtext footer_accordion">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
+                    <div class="footer-block__details-content rte footer_accordion">
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
+                      <ul class="footer-block__details-content list-unstyled footer_accordion">
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
@@ -104,7 +104,7 @@
                       </ul>
                     {%- endif -%}
                   {%- when 'newsletter' -%}
-                  <div class="footer-block__newsletter">
+                  <div class="footer-block__newsletter footer_accordion">
                     <p>{{ block.settings.subtext }}</p>
                     {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
@@ -167,7 +167,7 @@
                   </div>
 
                   {%- when 'brand_information' -%}
-                    <div class="footer-block__brand-info">
+                    <div class="footer-block__brand-info footer_accordion">
                       {%- if block.settings.brand_headline != blank -%}
                         <h2 class="footer-block__heading rte">{{ block.settings.brand_headline }}</h2>
                       {%- endif -%}
@@ -200,7 +200,7 @@
                       {%- endif -%}
                     </div>
                   {%- when 'image' -%}
-                    <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
+                    <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }} footer_accordion">
                       {%- if block.settings.image != blank -%}
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
                         <div
