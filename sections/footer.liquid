@@ -105,6 +105,7 @@
                     {%- endif -%}
                   {%- when 'newsletter' -%}
                   <div class="footer-block__newsletter">
+                    <p>{{ block.settings.subtext }}</p>
                     {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
                       <div class="newsletter-form__field-wrapper">
