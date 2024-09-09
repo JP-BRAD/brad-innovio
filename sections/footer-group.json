@@ -38,10 +38,17 @@
         "brand_information_iWKtCw": {
           "type": "brand_information",
           "settings": {
-            "show_social": true,
             "brand_headline": "Headline",
             "brand_description": "<p>Headline<\/p>",
-            "brand_image_width": 240
+            "brand_image_width": 240,
+            "show_social": true
+          }
+        },
+        "newsletter_BbMDFG": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
       },
@@ -49,7 +56,8 @@
         "footer-0",
         "footer-1",
         "footer-2",
-        "brand_information_iWKtCw"
+        "brand_information_iWKtCw",
+        "newsletter_BbMDFG"
       ],
       "settings": {
         "color_scheme": "background-1",
