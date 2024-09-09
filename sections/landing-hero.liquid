@@ -29,6 +29,14 @@
         class="w-full"
         style="width: 100%;"
       >
+
+      <img
+        alt=""
+        srcset="{{ section.settings.image | img_url:'' }}"
+        loading="lazy"
+        class="w-full"
+        style="width: 100%;"
+      >
     </a>
 
     <div
@@ -70,8 +78,13 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
-      "label": "Image"
+      "id": "image_for_desktop",
+      "label": "Image for Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_for_mobile",
+      "label": "Image for Mobile"
     }
   ],
   "presets": [
