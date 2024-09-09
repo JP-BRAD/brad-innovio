@@ -14,6 +14,15 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_iWKtCw": {
+          "type": "brand_information",
+          "settings": {
+            "brand_headline": "Headline",
+            "brand_description": "<p>Headline<\/p>",
+            "brand_image_width": 240,
+            "show_social": true
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -34,34 +43,17 @@
             "heading": "Heading",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
-        "brand_information_iWKtCw": {
-          "type": "brand_information",
-          "settings": {
-            "brand_headline": "Headline",
-            "brand_description": "<p>Headline<\/p>",
-            "brand_image_width": 240,
-            "show_social": true
-          }
         }
       },
       "block_order": [
+        "brand_information_iWKtCw",
         "footer-0",
         "footer-1",
-        "newsletter_BbMDFG",
-        "footer-2",
-        "brand_information_iWKtCw"
+        "newsletter_BbMDFG"
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
