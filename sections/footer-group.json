@@ -38,7 +38,10 @@
         "brand_information_iWKtCw": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": true,
+            "brand_headline": "Headline",
+            "brand_description": "<p>Headline<\/p>",
+            "brand_image_width": 100
           }
         }
       },
