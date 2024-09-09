@@ -49,7 +49,8 @@
     "landing_hero_Y3zdEN": {
       "type": "landing-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage-Desktop_d62cc435-c2e8-4e7c-bbbc-8b0030f2747e.webp"
+        "image_for_desktop": "shopify:\/\/shop_images\/Homepage-Desktop_d62cc435-c2e8-4e7c-bbbc-8b0030f2747e.webp",
+        "image_for_mobile": "shopify:\/\/shop_images\/MOBILE_b126e8a2-e141-4fca-b22f-180aa1195c41.webp"
       }
     },
     "featured_collection_UNyB43": {
@@ -83,7 +84,8 @@
     "landing_hero_dXtATC": {
       "type": "landing-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/carissas-desktop.webp"
+        "image_for_desktop": "shopify:\/\/shop_images\/carissas-desktop.webp",
+        "image_for_mobile": "shopify:\/\/shop_images\/kids-mobile_301f8a34-2f29-4c10-b0f4-283c836c000a.webp"
       }
     },
     "featured_collection_YKeNXr": {
@@ -117,7 +119,8 @@
     "landing_hero_qCWANe": {
       "type": "landing-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/mens-desktop_94d42df7-c37b-4b87-bd0b-be0cddaa42ce.webp"
+        "image_for_desktop": "shopify:\/\/shop_images\/kids-desktop_57a295f3-e697-4531-bccf-4200c80fcd31.webp",
+        "image_for_mobile": "shopify:\/\/shop_images\/womens-mobile_141c08ad-4b2e-4429-84e8-3a9a81053bb2.webp"
       }
     },
     "featured_collection_GYpgK3": {
@@ -151,7 +154,8 @@
     "landing_hero_zMdm3G": {
       "type": "landing-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/kids-desktop_57a295f3-e697-4531-bccf-4200c80fcd31.webp"
+        "image_for_desktop": "shopify:\/\/shop_images\/mens-desktop_94d42df7-c37b-4b87-bd0b-be0cddaa42ce.webp",
+        "image_for_mobile": "shopify:\/\/shop_images\/aaa2.webp"
       }
     },
     "section_shop_the_look_HCaRQN": {
