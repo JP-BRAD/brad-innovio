@@ -34,12 +34,19 @@
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
+        },
+        "brand_information_iWKtCw": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "footer-2",
+        "brand_information_iWKtCw"
       ],
       "settings": {
         "color_scheme": "background-1",
