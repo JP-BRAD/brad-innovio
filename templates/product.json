@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -52,6 +52,17 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
+          }
+        },
+        "brad_nextgen_pincode_validator_pincodevalidater_hTk8zi": {
+          "type": "shopify://apps/brad-nextgen-pincode-validator/blocks/pincodevalidater/d33d3262-6e6f-4975-9d5e-ed32fd50fe1b",
+          "settings": {
+            "placeholder_text": "Enter Pincode",
+            "check_now_text": "Check Now",
+            "color_btn_bg": "#0B0B22",
+            "color_btn_text": "#FFFFFF",
+            "border_color": "#0B0B22",
+            "border_radius": 5
           }
         },
         "description": {
@@ -118,6 +129,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "brad_nextgen_pincode_validator_pincodevalidater_hTk8zi",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
@@ -154,7 +166,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -184,7 +196,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +205,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
