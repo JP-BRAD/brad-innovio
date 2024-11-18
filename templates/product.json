@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -33,8 +32,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -44,8 +42,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -54,21 +51,9 @@
             "show_gift_card_recipient": false
           }
         },
-        "brad_nextgen_pincode_validator_pincodevalidater_hTk8zi": {
-          "type": "shopify://apps/brad-nextgen-pincode-validator/blocks/pincodevalidater/d33d3262-6e6f-4975-9d5e-ed32fd50fe1b",
-          "settings": {
-            "placeholder_text": "Enter Pincode",
-            "check_now_text": "Check Now",
-            "color_btn_bg": "#0B0B22",
-            "color_btn_text": "#FFFFFF",
-            "border_color": "#0B0B22",
-            "border_radius": 5
-          }
-        },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -129,7 +114,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "brad_nextgen_pincode_validator_pincodevalidater_hTk8zi",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
